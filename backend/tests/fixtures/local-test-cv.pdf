@@ -1,0 +1,36 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 466 >>
+stream
+BT
+/F1 12 Tf
+72 720 Td
+(Software Engineer - PHP and Node.js) Tj
+0 -24 Td
+(Backend engineer with 4 years of experience building REST APIs.) Tj
+0 -24 Td
+(Developed services using PHP, Laravel, Symfony, Node.js, SQL, and PostgreSQL.) Tj
+0 -24 Td
+(Used Git, Docker, Kubernetes, RabbitMQ, Jest, PHPUnit, and TDD.) Tj
+0 -24 Td
+(Designed backend systems and participated in code reviews and Scrum.) Tj
+0 -24 Td
+(Bachelor degree in Computer Science. English and Italian.) Tj
+ET
+endstream
+endobj
+trailer
+<< /Root 1 0 R >>
+%%EOF

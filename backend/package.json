@@ -1,0 +1,45 @@
+{
+  "name": "ats-backend",
+  "version": "1.0.0",
+  "description": "ATS Checker Backend Service",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:gemini": "tsx scripts/test-gemini.ts",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ats",
+    "fastify",
+    "gemini",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^10.1.0",
+    "@fastify/multipart": "^10.1.2",
+    "@google/genai": "^2.24.0",
+    "@types/pdf-parse": "^1.1.5",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "pdf-parse": "^2.4.5",
+    "pino-pretty": "^13.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/node": "^22.13.10",
+    "eslint": "^9.22.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0",
+    "vitest": "^3.0.8"
+  }
+}
