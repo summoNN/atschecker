@@ -13,12 +13,8 @@ Start the backend from `backend/`:
 npm run dev
 ```
 
-For Expo Go, set the backend address before starting the mobile app. Use the
-computer's LAN IP when testing on a physical iPhone:
+Start the mobile/web from `mobile/`:
 
 ```powershell
-$env:EXPO_PUBLIC_API_BASE_URL='http://192.168.1.10:4000'; npx expo start
+npm run web
 ```
-
-Only the backend receives `GEMINI_API_KEY`. Never put it in an `EXPO_PUBLIC_*`
-variable.
